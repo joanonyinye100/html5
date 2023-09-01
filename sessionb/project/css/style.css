@@ -1,3 +1,51 @@
 *{
-    border: 2px red solid;
+box-sizing: border-box;
+}
+body{
+    margin: O auto;
+    background-color: aliceblue;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    width: 960px;
+}
+header{
+    width: 100%;
+    height:100px;
+    background-color: #113657;
+    padding: 25px;
+}
+body header a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid aliceblue;
+    width:fit-content;
+    height: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+body nav{
+    background-color: #779dbb;
+    width: 100%;
+    height: 50px;
+    
+}
+body nav ul{
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    padding: 10px;
+}
+body nav ul li a{
+display: inline-block;
+text-decoration: none;
+
+}
+
+body section#banner{
+    
+
 }
