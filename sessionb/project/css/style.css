@@ -2,10 +2,9 @@
 box-sizing: border-box;
 }
 body{
-    margin: O auto;
+    margin: 0 auto;
     background-color: aliceblue;
-padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: verdana;
     text-align: justify;
     width: 960px;
 }
@@ -20,7 +19,7 @@ body header a{
     text-decoration: none;
     border: 1px solid aliceblue;
     width:fit-content;
-    height: 50px;
+    height: 40px;
     display: inline-block;
     text-transform: uppercase;
     border-radius: 10px;
